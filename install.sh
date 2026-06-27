@@ -7,7 +7,7 @@ echo "==== Installing dependencies ==="
 if command -v brew &> /dev/null; then
     PKG_MAN="brew"
     brew upgrade
-    brew install nvim git lazygit ripggrep fd
+    brew install neovim git lazygit ripgrep fd
 elif command -v apt-get &> /dev/null; then
     apt install git ripgrep fd-find
    
